@@ -1,5 +1,5 @@
 <template>
-  <el-upload action="#" list-type="picture-card" :auto-upload="false">
+  <el-upload action="#" list-type="picture-card" :limit="1" :auto-upload="false">
     <el-icon><Plus /></el-icon>
 
     <template #file="{ file }">
